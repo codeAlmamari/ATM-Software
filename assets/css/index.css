@@ -1,0 +1,112 @@
+body {
+    font-family: Tahoma, sans-serif;
+    color: #444;
+    letter-spacing: 1px;
+    background-color: #f4f4f4; 
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+#wrapper {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 20px; 
+    overflow: hidden;
+    border: 1px solid #ddd; 
+    background-color: #ffffff; 
+}
+
+#page-banner {
+    background: #009688; 
+    color: #ffffff; 
+    padding: 20px; 
+    border-bottom: 1px solid #00796b; 
+}
+
+#page-banner h1, #page-banner p {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.account {
+    width: 90%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    padding: 20px; 
+    overflow: hidden;
+    border: 1px solid #ddd; 
+    background-color: #f9f9f9; 
+}
+
+.account h3 {
+    margin: 20px 0 10px;
+    font-size: 1.3em; 
+    color: #333; 
+}
+
+.account-number, .account-balance {
+    font-size: 1.5em; 
+    font-weight: bold;
+    margin: 10px 0;
+    color: #00796b; 
+}
+
+.transaction {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px; 
+    border: 1px solid #ddd; 
+    border-radius: 6px;
+    background-color: #ffffff; 
+}
+
+.transaction h3 {
+    margin-bottom: 10px;
+    color: #009688; 
+}
+
+.transaction h4 {
+    margin-bottom: 20px;
+    color: #555; 
+}
+
+form {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333; 
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    font-size: 1em;
+    background-color: #ffffff; 
+    color: #333; 
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: #009688; 
+}
+
+option {
+    padding: 10px;
+}
